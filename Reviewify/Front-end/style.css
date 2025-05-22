@@ -1,0 +1,257 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0e0a0a;
+    color: #f0f0f0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .header {
+    background-color: #1a1a1a;
+    padding: 12px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .logo {
+    height: 100px;
+    width: auto;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    margin-top: 4px;
+    color: #cccccc;
+  }
+  
+  
+  .btn {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #dddddd;
+  }
+  
+  
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    color: #f28b82; /* soft red */
+    margin-bottom: 16px;
+  }
+  
+  .hero-subtitle {
+    font-size: 18px;
+    color: #cccccc;
+    margin-bottom: 24px;
+  }
+  
+  .btn-alt {
+    background-color: #1f1f1f;
+    color: #f28b82;
+    border: 1px solid #ff8a80;
+    padding: 10px 24px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+  }
+  
+  .btn-alt:hover {
+    background-color: #c62828;
+    color: #ffffff;
+  }
+  
+  
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    padding: 40px 0;
+  }
+  
+  .info-box {
+    background-color: #1f1f1f;
+    padding: 24px;
+    border-radius: 8px;
+    text-align: center;
+    color: #ffcdd2;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .info-box p {
+    color: #cccccc;
+  }
+  
+  
+  .footer {
+    background-color: rgba(198, 40, 40, 0.8);
+    text-align: center;
+    padding: 24px;
+    color: white;
+    font-size: 14px;
+  }
+  
+  
+body.dark-body {
+    background-color: #0e0a0a;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .dark-header {
+    background-color: #1a1a1a;
+    padding: 10px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  }
+  
+  .header-flex {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 16px;
+  }
+  
+  .logo-img {
+    height: 100px;
+    width: auto;
+  }
+  
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  
+  .section-title {
+    font-size: 22px;
+    margin: 40px 16px 24px;
+  }
+  
+  
+  .college-card {
+    border-radius: 12px;
+    padding: 24px;
+    margin: 0 16px 24px;
+    transition: all 0.3s ease;
+  }
+  
+  .dark-card {
+    background-color: #1f1f1f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .college-card:hover {
+    box-shadow: 0 6px 16px rgba(255, 255, 255, 0.1);
+  }
+  
+  
+  .college-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .dark-accent {
+    color: #f87171; /* soft red */
+  }
+  
+  .college-desc {
+    color: #cccccc;
+  }
+  
+  .college-link {
+    display: inline-block;
+    margin-top: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .dark-link {
+    color: #f87171;
+  }
+  
+  .dark-link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .dark-footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .graph-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  .card-center {
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #1e1e1e;
+    text-align: center;
+  }
+  .graph-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+  }
+.wc{
+  width:50%
+}
+  .graph-img:hover {
+    transform: scale(2.75); 
+    
+  }  
+  .wc:hover{
+    transform: scale(2.00);
+  }
+  .gallery-img{
+    width: 50%
+  }
